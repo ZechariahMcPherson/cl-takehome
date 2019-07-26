@@ -17,13 +17,39 @@ body {
   background-color: #147594;
 
   color: white;
-  height: 30px;
+  height: 60px;
+  padding: 5px;
 
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-evenly;
+}
+
+.left-header-div {
+  display: flex;
+}
+
+.right-header-div {
+  display: flex;
 }
 
 .website-name {
+  display: inline-block;
   font-size: 15px;
+}
+
+.menu {
+  display: inline-block;
+  list-style: none;
+}
+
+.menu-button {
+  padding: 10px;
+}
+
+.menu-button:hover {
+  background-color: #0f576e;
+  cursor: pointer;
 }
 
 .page-footer {
@@ -40,4 +66,38 @@ body {
 
 .copyright-text {
   color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0f576e;
+  color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.sub-menu-button {
+  padding: 10px;
+}
+
+.sub-menu-button:hover {
+  background-color: #0c4253;
+  cursor: pointer;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.downward-arrow {
+  display: inline-block;
+  transform: rotate(-90deg);
+}
+
+.dropdown-button-selected {
+  background-color: #0f576e;
+}
+
+.display-block {
+  display: block;
 }

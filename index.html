@@ -18,23 +18,33 @@
   <body>
     <div class="page-container">
       <header class="page-header">
-        <div>
+        <div class="left-header-div">
           <div class="website-name">
             Example page
           </div>
         </div>
-        <div>
-          <ul class="menu">
-            <li>
+        <div class="right-header-div">
+          <div class="menu">
+            <div
+              id="dropdownMenuButton"
+              class="menu-button"
+              onclick="handleDropdownMenuItemClick()"
+            >
               item 1
-            </li>
-            <li>
-              item 2
-            </li>
-            <li>
-              item 3
-            </li>
-          </ul>
+              <span id="dropdownMenuButtonArrow">
+                <
+              </span>
+            </div>
+
+            <div id="item1Dropdown" class="dropdown-content">
+              <div class="sub-menu-button">
+                Item title 2a
+              </div>
+              <div class="sub-menu-button">
+                Item 2b
+              </div>
+            </div>
+          </div>
         </div>
       </header>
       <footer class="page-footer">
