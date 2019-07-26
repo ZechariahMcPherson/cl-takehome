@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+.page-container {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.page-header {
+  display: flex;
+  background-color: #147594;
+
+  color: white;
+  height: 30px;
+
+  align-items: center;
+}
+
+.website-name {
+  font-size: 15px;
+}
+
+.page-footer {
+  display: flex;
+  background-color: #147594;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright-text {
+  color: white;
+}
