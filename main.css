@@ -1,5 +1,8 @@
 body {
   margin: 0;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #4491a8;
 }
 
 .page-container {
@@ -7,9 +10,6 @@ body {
   overflow: hidden;
   display: block;
   position: relative;
-
-  font-size: 14px;
-  font-family: "Open Sans", sans-serif;
 }
 
 .page-header {
@@ -18,11 +18,11 @@ body {
 
   color: white;
   height: 35px;
-  padding: 5px;
+  padding: 5px 40px;
 
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 
   border-bottom: 4px solid #0f576d;
 }
@@ -40,12 +40,10 @@ body {
 }
 
 .website-name {
-  display: inline-block;
   font-size: 20px;
 }
 
 .menu {
-  display: inline-block;
   font-size: 16px;
 }
 
@@ -59,6 +57,10 @@ body {
   cursor: pointer;
 }
 
+.random-things {
+  border-top: 1px solid #4491a8;
+}
+
 .page-footer {
   display: flex;
   background-color: #147594;
@@ -67,6 +69,7 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
+  height: 30px;
 
   align-items: center;
   justify-content: center;
@@ -113,6 +116,39 @@ body {
 
 .display-block {
   display: block;
+}
+
+.homepage-title-div {
+  display: flex;
+
+  height: 150px;
+  border-bottom: 4px solid lightgray;
+
+  justify-content: center;
+}
+
+.welcome-to-page {
+  font-size: 75px;
+  color: #de4205;
+
+  text-shadow: 4px 3px 0px #fff, 5px 4px 0px rgba(0, 0, 0, 0.15);
+
+  font-family: "Passion One";
+  z-index: 3;
+}
+
+.mountain-img {
+  border-bottom-right-radius: 75px;
+  border-bottom-left-radius: 75px;
+
+  border: 2px solid white;
+  border-top: none;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+
+  height: 160px;
+  width: 170px;
+
+  z-index: 2;
 }
 
 @media only screen and (max-width: 768px) {
