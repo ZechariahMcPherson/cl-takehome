@@ -57,11 +57,29 @@ body {
   cursor: pointer;
 }
 
+.these-are-cards-outer-div {
+  background-color: #1a9dc5;
+
+  color: #fff;
+
+  padding: 20px 60px;
+}
+
+.these-are-cards-inner-div {
+  background-color: #137392;
+
+  padding: 20px;
+}
+
+.these-are-cards-inner-div a {
+  color: #fff;
+}
+
 .random-things {
   display: inline-block;
   vertical-align: top;
   margin: 15px;
-  width: 30%;
+  width: 26%;
   border-top: 1px solid #4491a8;
 }
 
