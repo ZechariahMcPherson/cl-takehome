@@ -95,13 +95,21 @@
 
           <div class="want-to-see-div">
             I want to see:
-            <input type="checkbox" />
+            <input
+              id="birdsCheckbox"
+              type="checkbox"
+              onclick="wantToSeeOnClick('birds')"
+            />
             Birds
-            <input type="checkbox" />
+            <input
+              id="catsCheckbox"
+              type="checkbox"
+              onclick="wantToSeeOnClick('cats')"
+            />
             Cats
           </div>
           <div class="outer-cards-div">
-            <div class="card">
+            <div class="want-to-see-card cat-card">
               <img
                 class="card-img"
                 src="images-for-example-page/cat.png"
@@ -116,7 +124,7 @@
                 <div>Click & go!</div>
               </div>
             </div>
-            <div class="card">
+            <div class="want-to-see-card bird-card">
               <img
                 class="card-img"
                 src="images-for-example-page/birds.png"
@@ -131,7 +139,7 @@
                 <div>Click & go!</div>
               </div>
             </div>
-            <div class="card">
+            <div class="want-to-see-card cat-card">
               <img
                 class="card-img"
                 src="images-for-example-page/cat.png"
@@ -145,7 +153,7 @@
                 <div>Click & go!</div>
               </div>
             </div>
-            <div class="card">
+            <div class="want-to-see-card bird-card">
               <img
                 class="card-img"
                 src="images-for-example-page/birds.png"
