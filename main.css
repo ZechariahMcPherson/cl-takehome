@@ -18,7 +18,7 @@ body {
 
   color: #fff;
   height: 35px;
-  padding: 5px 40px;
+  padding: 5px 60px;
 
   flex-wrap: wrap;
   align-items: center;
@@ -30,13 +30,13 @@ body {
 .left-header-div {
   display: flex;
   flex: 0 1 50%;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .right-header-div {
   display: flex;
   flex: 0 1 50%;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .website-name {
@@ -277,6 +277,7 @@ body {
   .left-header-div,
   .right-header-div {
     flex: 1 0 100%;
+    justify-content: center;
   }
 
   .website-name {
@@ -325,6 +326,8 @@ body {
   }
 
   .welcome-to-page {
+    font-size: 80px;
+
     position: absolute;
     text-align: center;
     width: 100%;
@@ -332,10 +335,12 @@ body {
   }
 
   .homepage-title-div {
-    height: 450px;
+    height: 440px;
   }
 
   .this-is-our-assessment {
+    font-size: 40px;
+
     position: absolute;
     bottom: 25px;
     text-align: center;
